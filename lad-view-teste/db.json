@@ -1,0 +1,81 @@
+{
+  "cliente": [
+    {
+      "cpf": " 111.111.111-11 ",
+      "email": "maria@email.com",
+      "nome": "Maria",
+      "senha": "djjd&&",
+      "logradouro": "Rua Tal",
+      "numero": "11",
+      "cep": " 11111-111 ",
+      "telefone": " (11)11111-1111 ",
+      "id": 1
+    },
+    {
+      "cpf": " 222.222.222-22 ",
+      "email": "ana@email.com",
+      "nome": "Ana",
+      "senha": "hfhfh¨¨¨¨",
+      "logradouro": "Rua Tal",
+      "numero": "22",
+      "cep": " 22222-222 ",
+      "telefone": " (22)22222-2222 ",
+      "id": 2
+    },
+    {
+      "cpf": " 333.333.333-33 ",
+      "email": "pedro@email.com",
+      "nome": "Pedro",
+      "senha": "dfhfhfh%%",
+      "logradouro": "Rua Tal",
+      "numero": "33",
+      "cep": " 33333-333 ",
+      "telefone": " (33)33333-3333 ",
+      "id": 3
+    },
+    {
+      "cpf": " 444.444.444-44 ",
+      "email": "maria@email.com",
+      "nome": "Maria",
+      "senha": "djdjd6",
+      "logradouro": "Rua Tal",
+      "numero": "444",
+      "cep": " 44444-444 ",
+      "telefone": " (44)44444-4444 ",
+      "id": 4
+    },
+    {
+      "cpf": " 555.555.555-55 ",
+      "email": "ana@email.com",
+      "nome": "Ana",
+      "senha": "fhfhhf%%%",
+      "logradouro": "Rua Tal",
+      "numero": "55",
+      "cep": " 55555-555 ",
+      "telefone": " (55)55555-5555 ",
+      "id": 5
+    },
+    {
+      "cpf": " 777.777.777-77 ",
+      "email": "pedro@email.com",
+      "nome": "Pedro",
+      "senha": "hfhf6¨",
+      "logradouro": "Rua Tal",
+      "numero": "77",
+      "cep": " 77777-777 ",
+      "telefone": " (77)77777-7777 ",
+      "id": 6
+    },
+    {
+      "cpf": " 888.888.888-88 ",
+      "email": "joao@email.com",
+      "nome": "João",
+      "senha": "dhdhh5%55",
+      "logradouro": "88",
+      "numero": "88",
+      "cep": " 88888-888 ",
+      "telefone": " (88)88888-8888 ",
+      "id": 7
+    }
+  ]
+}

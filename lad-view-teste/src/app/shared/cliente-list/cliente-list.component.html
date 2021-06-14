@@ -1,0 +1,17 @@
+<div class="container">
+  <h1 class="titulo">Clientes</h1>
+  <div class="grupo-card"> 
+    <div *ngFor="let itens of list$ | async" class="cards">
+        <ul class="list-group list-group-flush ">
+          <li class="list-group-item"><span class="list-item">Nome: </span> {{ itens.nome }}</li>
+          <li class="list-group-item"><span class="list-item">E-mail: </span> {{ itens.email }}</li>
+          <li class="list-group-item"><span class="list-item">Senha: </span> {{ itens.senha }}</li>
+          <li class="list-group-item"><span class="list-item">CPF:</span> {{ itens.cpf }}</li>
+          <li class="list-group-item"><span class="list-item">Logradouro: </span> {{ itens.logradouro }}</li>
+          <li class="list-group-item"><span class="list-item">Número: </span> {{ itens.numero }}</li>
+          <li class="list-group-item"><span class="list-item">CEP: </span> {{ itens.cep }}</li>
+          <li class="list-group-item"><span class="list-item">Telefone: </span> {{ itens.telefone }}</li>
+        </ul>
+    </div> 
+  </div>
+</div> 

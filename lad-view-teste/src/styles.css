@@ -1,0 +1,22 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+body{
+    background-color: #E5E3D6;
+    padding: 60px 5px;
+}
+@font-face {
+    font-family: lobster;
+    src: url(../src/assets/font/LobsterTwo-Bold.ttf);
+}
+.titulo{
+    text-align: center;
+    color: #191810;
+    font-family: lobster;
+    font-size: 5em;
+}
+/*MEDIA QUERIES*/
+@media screen and (max-width: 800px) {
+    .titulo{
+        font-size: 3.5em;
+    }
+}

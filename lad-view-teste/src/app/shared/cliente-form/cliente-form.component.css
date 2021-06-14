@@ -1,0 +1,43 @@
+.container{
+    background-color: #AFA983;
+    border-radius: 10px;
+    padding: 30px 10px;
+}
+.titulo{
+    padding: 60px 0 50px 0;
+}
+.formulario{
+    max-width: 780px;
+    margin: 0 auto;
+}
+label{
+    display: block;
+    color: #191810;
+} 
+input{
+    width: 100%;
+    padding:8px 0 8px 10px;
+    border: 1px solid #252418;
+    border-radius: 10px;
+}
+.botao-submit{
+    display: block;
+    padding: 5px 30px;
+    margin: 0 auto;
+    background-color: #3E3C28;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.botao-submit:hover{
+    background-color: #191810;
+}
+/*MEDIA QUERIES*/
+@media screen and (max-width: 1000px) {
+    .titulo{
+    padding: 30px 0 30px 0;
+        
+    }
+}
+

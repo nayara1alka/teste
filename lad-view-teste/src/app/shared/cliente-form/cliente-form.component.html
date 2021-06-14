@@ -1,0 +1,77 @@
+<div class="container">
+    <h1 class="titulo">Cadastrar</h1>
+    <form [formGroup]="form" class="formulario needs-validation">
+        <div class="campo">
+            <label for="nome" >Nome </label>
+            <input id="nome" (input)="onInput()"
+            type="text" 
+            formControlName="nome" 
+            [ngClass]="{'is-invalid': submitted && hasError('nome') || verificarCampo('nome') }"/>
+            <div class="invalid-feedback">
+              Campo Obrigatório.
+          </div>
+        </div>
+        <div class="campo"> 
+            <label for="email">E-mail </label>
+            <input id="email" (input)="onInput()"
+            type="email"  
+            formControlName="email" 
+            placeholder="name@email.com" 
+            [ngClass]="{'is-invalid': submitted && hasError('email') || verificarCampo('email')}"/>
+            <div class="invalid-feedback">
+                Campo Obrigatório.
+            </div>
+        </div>
+        <div class="campo">
+            <label for="senha" >Senha </label>
+            <input id="senha" (input)="onInput()"
+            type="password" 
+            formControlName="senha" 
+            [ngClass]="{'is-invalid': submitted && hasError('senha') || verificarCampo('senha')}"/>
+            <div class="invalid-feedback">
+                Campo Obrigatório.
+            </div>
+        </div>
+        <div class="campo">
+            <label for="cpf">CPF </label>
+            <input id="cpf" (input)="onInput()"
+            type="text" 
+            formControlName="cpf" 
+            mask=" 000.000.000-00 "
+            [ngClass]="{'is-invalid': submitted && hasError('cpf') || verificarCampo('cpf')}"
+            />
+            <div class="invalid-feedback" >
+                Campo Obrigatório.
+            </div>
+        </div>
+        <div class="campo">
+            <label for="logradouro" >Logradouro </label>
+            <input id="logradouro" type="text" formControlName="logradouro" (input)="onInput()" />
+        </div>
+        <div class="campo">
+            <label for="numero" >Número </label>
+            <input id="numero" type="text" formControlName="numero" (input)="onInput()" />
+        </div>
+        <div class="campo">
+            <label for="cep" >CEP </label>
+            <input id="cep" type="text" (input)="onInput()" mask=" 00000-000 " formControlName="cep"
+            [ngClass]="{'is-invalid': submitted && hasError('cep') || verificarCampo('cep')}" />
+            <div class="invalid-feedback">
+                Campo Obrigatório.
+            </div>
+        </div>
+        <div class="campo">
+            <label for="telefone" >Telefone </label>
+            <input id="telefone" type="text" mask=" (00)00000-0000 " placeholder="(00)00000-0000" 
+            formControlName="telefone" 
+            [ngClass]="{'is-invalid': submitted && hasError('telefone') || verificarCampo('telefone')}"/>
+            <div class="invalid-feedback">
+                Campo Obrigatório.
+            </div>
+        </div>
+        <button class="botao-submit" type="submit" (click)="doSend()">ENVIAR</button>
+    </form>
+</div>
+
+
+
